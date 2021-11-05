@@ -22,6 +22,6 @@ public class SpaDayController {
         newClient.setAppropriateFacials(skintype);
         model.addAttribute("client" , newClient);
 
-        return "menu";
+        return "menus";
     }
 }
